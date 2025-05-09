@@ -24,9 +24,9 @@ git clone https://github.com/your-username/resume-bot.git
 cd resume-bot
 ```
 ### 2. Install Dependencies
-
+```
 conda env create -f environment.yml
-
+```
 ### 3. Start the LLM Model (via Ollama)
     ollama run llama2
 
