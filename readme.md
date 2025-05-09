@@ -31,12 +31,14 @@ conda env create -f environment.yml
     ollama run llama2
 
 ### 4. Launch the Backend (FastAPI)
-
+```
 uvicorn app.main:app --reload
-
+```
 
 ### 5. Start the Frontend (Streamlit)
+```
 streamlit run web/app.py
+```
 Open your browser and go to: http://localhost:8501
 
 ## Project Structure
@@ -57,7 +59,7 @@ resume-bot/
 ├── environment.yml
 └── README.md
 
-🚧 Roadmap
+## 🚧 Roadmap
  Multi-turn conversation and chat memory
 
  Job description parsing and skill alignment
@@ -66,7 +68,7 @@ resume-bot/
 
  User management and history (via database)
 
-📄 License
+## 📄 License
 MIT License.
 
 This project is under active development. Contributions and feedback are welcome!
