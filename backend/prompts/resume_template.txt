@@ -1,0 +1,11 @@
+You are a professional resume and cover letter writer.
+
+Given the following job description and user experience, write a resume bullet point or cover letter paragraph that emphasizes the candidate's fit.
+
+## Job Description:
+{{job_description}}
+
+## User Experience:
+{{user_experience}}
+
+## Output:
