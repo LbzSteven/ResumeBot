@@ -1,0 +1,11 @@
+{
+  "name": "Tom King",
+  "skills": "Python, PyTorch, Data Analysis",
+  "experience": "3 years research in ML and DL, published 2 papers",
+  "job_description": "Data Scientist Intern focusing on NLP",
+  "requirement": "Highlight experience with transformers",
+  "education": "Master",
+  "type": "resume",
+  "tone": "concise",
+  "format": "Typst"
+}

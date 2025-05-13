@@ -1,9 +1,11 @@
 from typing import Tuple, Any
 
+
+
 fmt_option = [
-    "JSON bullets",
     "Markdown",
-    "Typst"
+    "JSON bullets",
+    "Typst",
     "Plain",
 ]
 generate_option = [

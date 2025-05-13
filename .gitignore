@@ -1,1 +1,5 @@
 .idea
+frontend/defaults
+!frontend/defaults/.gitkeep
+frontend/output
+!frontend/output/.gitkeep

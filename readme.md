@@ -32,17 +32,18 @@ conda env create -f environment.yml
 
 ### 4. Launch the Backend (FastAPI)
 ```
-uvicorn app.main:app --reload
+uvicorn main:app --reload
 ```
 
 ### 5. Start the Frontend (Streamlit)
 ```
-streamlit run web/app.py
+streamlit run frontend/app.py
 ```
 Open your browser and go to: http://localhost:8501
 
 ## Project Structure
 
+```
 resume-bot/
 │
 ├── backend/                  # FastAPI backend
@@ -54,10 +55,13 @@ resume-bot/
 ├── web/                  # Streamlit frontend
 │        ├── utils/              # Prompt templates and formatting logic
 │               └── constant.py # constant settings
-│   └── app.py
+│               └── app.py
 │
 ├── environment.yml
 └── README.md
+
+```
+
 
 ## 🚧 Roadmap
  Multi-turn conversation and chat memory
