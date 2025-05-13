@@ -54,8 +54,12 @@ resume-bot/
 │   └── generate.py           # generate prompt and make
 ├── web/                  # Streamlit frontend
 │        ├── utils/              # Prompt templates and formatting logic
-│               └── constant.py # constant settings
-│               └── app.py
+│        │      └── constant.py # constant settings
+│        │      └── json_util.py # utils to manage read and write defuault input
+│        │      └── output_util.py # utils to manage save output
+│        ├── defaults/  # save your default input
+│        ├── output/  # save your output
+│        └── app.py
 │
 ├── environment.yml
 └── README.md
